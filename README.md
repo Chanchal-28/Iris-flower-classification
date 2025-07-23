@@ -66,6 +66,11 @@ To train a machine learning model that can **predict the species** of an iris fl
       Input: [[5.1, 3.5, 1.4, 0.2]]
       Predicted Species: Iris-setosa
 
+     📊 Confusion Matrix:
+
+    <img width="797" height="692" alt="image" src="https://github.com/user-attachments/assets/b539fb74-0567-43c6-b21e-9fa5e09b367b" />
+    <img width="744" height="403" alt="image" src="https://github.com/user-attachments/assets/eb8452bb-5f1b-46d0-9b87-9518a9d8ecd7" />
+
 ---
 
 ## ▶️ How to Run
@@ -90,3 +95,25 @@ To train a machine learning model that can **predict the species** of an iris fl
 ### ✅ Should you include it in your project?
 
 **Yes, absolutely.** It's professional and helpful. You already have your code and data working — this section just tells others how to run it on their machine.
+
+---
+
+🌟 Project Highlights
+ ---
+1. Simple and clean implementation using Logistic Regression
+2. Achieves 100% accuracy on the test se
+3. Beginner-friendly and easy to understand
+4. Easily extendable to other ML models
+5. Ideal for learning basic data preprocessing and classification
+
+---
+
+👩‍💻 Author
+---
+
+Chanchal Vishwakarma
+
+📧 vishwakarmachanchal107@gmail.com
+🔗 LinkedIn - www.linkedin.com/in/chanchal-vishwakarma
+🌱 Data Science Intern at Oasis Infobyte
+
