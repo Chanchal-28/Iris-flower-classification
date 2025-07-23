@@ -45,23 +45,47 @@ To train a machine learning model that can **predict the species** of an iris fl
 
 ---
 
-## 📊 Sample Output (Classification Accuracy)
+## 📊 Sample Output 
+  
+    📊 Classification Report:
+   
 
-```python
-Model Accuracy: 96.67%
+                 precision      recall    f1-score    support
+
+    Iris-setosa       1.00      1.00      1.00        10
+    Iris-versicolor   1.00      1.00      1.00         9
+    Iris-virginica    1.00      1.00      1.00        11
+
+       
+    accuracy                              1.00        30  
+    macro avg         1.00      1.00      1.00        30    
+    weighted avg      1.00      1.00      1.00        30
+
+    🌸 Sample Prediction:
+  
+      Input: [[5.1, 3.5, 1.4, 0.2]]
+      Predicted Species: Iris-setosa
+
+---
+
 ## ▶️ How to Run
 
+
 1. Clone this repository:
+   ---
    git clone https://github.com/Chanchal-28/iris-flower-classification.git
 
 2. Navigate to the folder:
-cd iris-flower-classification
+   --- 
+   cd iris-flower-classification
 
 3. Install dependencies:
-pip install pandas scikit-learn numpy matplotlib
+   ---
+   pip install pandas scikit-learn numpy matplotlib
 
-4.Run the script:
-python iris_classifier.py
+4. Run the script:
+   ---
+   python iris_classifier.py
 
 ### ✅ Should you include it in your project?
 
