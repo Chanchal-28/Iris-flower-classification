@@ -29,6 +29,13 @@ y_pred = model.predict(X_test)
 print("📊 Classification Report:\n")
 print(classification_report(y_test, y_pred))
 
+# Sample Prediction
+sample = [[5.1, 3.5, 1.4, 0.2]]
+predicted_class = model.predict(sample)
+print("\n🌸 Sample Prediction:")
+print("Input:", sample)
+print("Predicted Species:", predicted_class[0])
+
 # Confusion Matrix
 cm = confusion_matrix(y_test, y_pred, labels=model.classes_)
 sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', xticklabels=model.classes_, yticklabels=model.classes_)
@@ -37,9 +44,4 @@ plt.ylabel('True')
 plt.title('Confusion Matrix')
 plt.show()
 
-# Sample Prediction
-sample = [[5.1, 3.5, 1.4, 0.2]]
-predicted_class = model.predict(sample)
-print("\n🌸 Sample Prediction:")
-print("Input:", sample)
-print("Predicted Species:", predicted_class[0])
+
