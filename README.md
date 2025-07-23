@@ -49,3 +49,20 @@ To train a machine learning model that can **predict the species** of an iris fl
 
 ```python
 Model Accuracy: 96.67%
+## ▶️ How to Run
+
+1. Clone this repository:
+   git clone https://github.com/Chanchal-28/iris-flower-classification.git
+
+2. Navigate to the folder:
+cd iris-flower-classification
+
+3. Install dependencies:
+pip install pandas scikit-learn numpy matplotlib
+
+4.Run the script:
+python iris_classifier.py
+
+### ✅ Should you include it in your project?
+
+**Yes, absolutely.** It's professional and helpful. You already have your code and data working — this section just tells others how to run it on their machine.
