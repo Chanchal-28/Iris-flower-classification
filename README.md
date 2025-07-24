@@ -113,7 +113,9 @@ To train a machine learning model that can **predict the species** of an iris fl
 
 Chanchal Vishwakarma
 
-📧 vishwakarmachanchal107@gmail.com
+📧 vishwakarmachanchal107@gmail.com 
+
 🔗 LinkedIn - www.linkedin.com/in/chanchal-vishwakarma
+
 🌱 Data Science Intern at Oasis Infobyte
 
